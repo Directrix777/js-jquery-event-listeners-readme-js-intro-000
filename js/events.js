@@ -9,7 +9,7 @@ function getIt()
 
 function frameIt()
 {
-  console.log('the image is' + $('img')[0])
+  $('img')[0].class = 'tasty'
   $(`img`).on(`load`, function()
   {
 
