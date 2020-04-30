@@ -7,11 +7,6 @@ function getIt()
   })
 }
 
-function srcIt()
-{
-  $('img').attr('src', "https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg")
-}
-
 function frameIt()
 {
   $('img').on('load', function(){
@@ -21,7 +16,12 @@ function frameIt()
 
 function pressIt()
 {
-  //$('form #typing')
+  $('form #typing').on('keydown', function(key){
+    if(key.which == 71)
+    {
+      alert(`You typed a 'G!'`)
+    }
+  })
 }
 
 function submitIt()
@@ -33,7 +33,6 @@ $(document).ready(function()
 {
   getIt()
   frameIt()
-  srcIt()
   pressIt()
   submitIt()
 });
