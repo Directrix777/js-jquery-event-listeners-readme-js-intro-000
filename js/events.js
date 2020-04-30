@@ -9,11 +9,11 @@ function getIt()
 
 function frameIt()
 {
-  $('img')[0].class = 'tasty'
   $(`img`).on(`click`, function()
   {
-    console.log($('img')[0].class)
+    console.log("before" + $('img').class)
     $('img').class = '.tasty'
+    console.log("after" + $('img').class)
   })
 }
 
