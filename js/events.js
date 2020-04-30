@@ -1,7 +1,9 @@
 //define functions here
 
-$(document).ready(function(){
-
-// call functions here
-
+$(document).ready(function()
+{
+  $(`p`).on(`click`, function()
+  {
+    alert(Hey!)
+  })
 });
