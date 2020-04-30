@@ -10,9 +10,9 @@ function getIt()
 function frameIt()
 {
   $('img')[0].class = 'tasty'
-  $(`img`).on(`load`, function()
+  $(`img`).on(`click`, function()
   {
-
+    console.log($('img')[0].class)
     $('img').class = 'tasty'
   })
 }
