@@ -11,9 +11,9 @@ function frameIt()
 {
   $(`img`).on(`click`, function()
   {
-    console.log("before" + $('img').class)
-    $('img').class = '.tasty'
-    console.log("after" + $('img').class)
+    console.log("before" + $('img')[0].class)
+    $('img')[0].class = '.tasty'
+    console.log("after" + $('img')[0].class)
   })
 }
 
