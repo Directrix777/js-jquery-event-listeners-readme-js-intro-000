@@ -9,7 +9,7 @@ function getIt()
 
 function srcIt()
 {
-  $('img').addSource = "https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"
+  $('img').attr('source', "https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg")
 }
 
 function frameIt()
