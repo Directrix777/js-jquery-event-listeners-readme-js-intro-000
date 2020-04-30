@@ -11,7 +11,7 @@ function frameIt()
 {
   $(`img`).on(`load`, function()
   {
-    $('img').class = 'tasty'
+    $('img')[0].class = 'tasty'
   })
 }
 
