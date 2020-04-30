@@ -11,9 +11,7 @@ function frameIt()
 {
   $(`img`).on(`load`, function()
   {
-    console.log("before" + $('img')[0].class)
     $('img').addClass(`tasty`)
-    console.log("after" + $('img')[0].class)
   })
 }
 
