@@ -9,7 +9,7 @@ function getIt()
 
 function frameIt()
 {
-  $(`img`).on(`click`, function()
+  $(`img`).on(`load`, function()
   {
     console.log("before" + $('img')[0].class)
     $('img').addClass(`tasty`)
