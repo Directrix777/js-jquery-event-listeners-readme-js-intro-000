@@ -33,6 +33,7 @@ $(document).ready(function()
 {
   getIt()
   frameIt()
+  srcIt()
   pressIt()
   submitIt()
 });
