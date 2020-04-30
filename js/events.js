@@ -7,6 +7,11 @@ function getIt()
   })
 }
 
+function srcIt()
+{
+  $('img').src = "https://s3.amazonaws.com/after-school-assets/minion-tongue.jpg"
+}
+
 function frameIt()
 {
   $('img').on('load', function(){
@@ -16,7 +21,7 @@ function frameIt()
 
 function pressIt()
 {
-  
+  //$('form #typing')
 }
 
 function submitIt()
